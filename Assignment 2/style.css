@@ -1,0 +1,38 @@
+.navbar {
+    padding-top: 20px; /* Increase top padding */
+    padding-bottom: 20px; /* Increase bottom padding */
+    font-size: 18px; /* Increase font size */
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 15px; /* Adjust padding of navbar items */
+    margin: 0 10px; /* Adjust margin between navbar items */
+  }
+
+  .carousel-item {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    filter: brightness(50%); /* Adjust brightness to darken the image */
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+  }
+
+  .search-bar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
