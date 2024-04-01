@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Nav Bars with Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        .btn-red {
+            background-color: red;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- First Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand mx-auto" href="#"><img src="your-image-link-address" alt="Logo"></a>
+            <div class="d-flex">
+                <button class="btn btn-primary me-2">Subscribe</button>
+                <button class="btn btn-primary">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Second Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-home"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Today's Paper</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Local</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">QLD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">National</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">World</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Opinion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Business</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Entertainment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lifestyle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sport</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Hipcamp nightmare: Host suspended after Easter ‘debacle’</h2>
+                    <p>Dozens of campers who paid deposits and arrived at a location south of Brisbane advertised as an “exclusive” farm stay had to be turned away after discovering it was a private family home..</p>
+                    
+                </div>
+                <div class="col-md-6">
+                    <img src="Images/Hipcamp.jpeg" class="img-fluid" alt="Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img src="Images/Horific.jpeg" class="card-img-top" alt="Image 1" style="max-height: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>‘Horrific scene’: Nurse killed in alleged stolen car crash </b>
+                            </h5>
+                            <p class="card-text">A woman killed in a horror head-on crash allegedly involving a stolen car has been identified as a “nurse, wife and mother” in the latest tragedy to rock a Queensland region.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img src="Images/Horific2.jpeg" class="card-img-top" alt="Image 2" style="max-height: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Tributes flow for Gold Coast double drowning tragedy victims</h5>
+                            <p class="card-text">The two men who drowned in a tragic pool incident trying to save a toddler at a Gold Coast unit block on Sunday have been identified as tributes pour in from around the world.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+
+    <section>
+        <div class="container">
+            <img src="Images/Bloody.jpeg" class="img-fluid" alt="Large Image">
+            <h2 class="mt-4">Worst in 46 years: Why Tszyu bloodbath should’ve been stopped</h2>
+            <p>Tim Tszyu’s gruesome defeat to Sebastian Fundora should never have gone to the scorecards, according to one of the most respected cutmen in Australian boxing.</p>
+        </div>
+    </section>
+    
+    
+
+    
+
+    <!-- Card 2 -->
+    <section>
+        <div class="container">
+            <h2 class="mb-4"><b>Cost of Living</b></h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="Images/Cost1.jpeg" class="card-img-top" alt="Image 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Cut-price Toyota Prado rival arrives</h5>
+                            <p class="card-text">An emerging new car maker has launched its rugged new off-roader and it has something the biggest names in the game don’t.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="Images/Cost2.jpeg" class="card-img-top" alt="Image 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Card 2</h5>
+                            <p class="card-text">Sed vehicula libero at arcu ullamcorper, non finibus lorem tempor. Nullam sit amet ultrices risus.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="Images/Cost3.jpeg" class="card-img-top" alt="Image 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Card 3</h5>
+                            <p class="card-text">Etiam sit amet risus fringilla, ultricies eros ac, molestie libero. Nullam dictum mi ut purus consectetur.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="Images/Cost4.jpeg" class="card-img-top" alt="Image 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Card 4</h5>
+                            <p class="card-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <footer style="background-color: black; color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Career Logo -->
+                    <a class="navbar-brand" href="#"><img src="Images/Career Logo.jpeg" alt=""></a>
+                </div>
+                <div class="col-md-8 d-flex align-items-center justify-content-end">
+                    <!-- Social Media Icons -->
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item me-3"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li class="list-inline-item me-3"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                    <!-- Subscribe Button -->
+                    <button class="btn btn-danger me-3">Subscribe</button>
+                    <!-- Sign In Icon -->
+                    <a href="#" class="text-white"><i class="fas fa-sign-in-alt"></i></a>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <!-- Membership -->
+                    <h5>Membership</h5>
+                    <ul>
+                        <li>Subscription packages</li>
+                        <li>Group/Corporate subscriptions</li>
+                        <li>The Career app</li>
+                        <li>Today's Paper</li>
+                        <li>Newsletters</li>
+                        <li>Rewards</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <!-- About Us -->
+                    <h5>About Us</h5>
+                    <ul>
+                        <li>About us</li>
+                        <li>Meet the team</li>
+                        <li>Job opportunities</li>
+                        <li>Code of conduct</li>
+                        <li>Subscription FAQs</li>
+                        <li>Subscription terms</li>
+                        <li>Financial Hardship Policy</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <!-- Contact Us -->
+                    <h5>Contact Us</h5>
+                    <ul>
+                        <li>Help & support</li>
+                        <li>FAQs</li>
+                        <li>Standards of practice</li>
+                        <li>Letter to the Editor</li>
+                        <li>Photo Print Sales</li>
+                        <li>Licensing & Reprints</li>
+                        <li>Advertise with us</li>
+                        <li>Our News Network</li>
+                        <li>Herald Sun</li>
+                        <li>The Daily Telegraph</li>
+                        <!-- Add more links here -->
+                    </ul>
+                    <!-- Our Partners -->
+                    <h5 class="mt-4">Our Partners</h5>
+                    <ul>
+                        <li>Buy Search Sell Classifieds</li>
+                        <li>Find Your Local</li>
+                        <li>Foxsports</li>
+                        <li>Foxtel</li>
+                        <li>Hipages</li>
+                        <li>Kayo</li>
+                        <li>My Tributes</li>
+                        <li>odds.com.au</li>
+                        <li>Punters</li>
+                        <li>racenet.com.au</li>
+                        <li>realestate.com.au</li>
+                        <li>Sky News</li>
+                        <li>Coupons</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <!-- Bootstrap Bundle with Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <script>
+        // JavaScript code to print image name below the logo
+        const images = document.querySelectorAll('img');
+        const brandLogo = document.querySelector('.navbar-brand');
+        
+        images.forEach(img => {
+            img.addEventListener('mouseover', () => {
+                const imageName = img.alt;
+                const imageText = document.createElement('p');
+                imageText.textContent = imageName;
+                brandLogo.appendChild(imageText);
+            });
+            
+            img.addEventListener('mouseout', () => {
+                const imageText = brandLogo.querySelector('p');
+                if (imageText) {
+                    brandLogo.removeChild(imageText);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
